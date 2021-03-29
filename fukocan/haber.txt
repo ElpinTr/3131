@@ -1,0 +1,7 @@
+Baþlýk : <b><font color=#ff3300>   Baþlýk </b></font>
+
+Tanýtým Yazýsý: <b><font color=#ffffff> Tanýtým Yazýsý </b></font>
+
+Haberin Tamamý: <b><font color=#ffffff> Haberin Tamamý </b></font>
+
+Yazar : <b><font color=#ff3300> Yazar </b></font>

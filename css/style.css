@@ -1,0 +1,377 @@
+html { 
+margin : 0; 
+padding : 0; 
+height : 100%; 
+} 
+body { 
+background : #f4f4f4; 
+font-family : verdana; 
+font-size : 10px; 
+margin : 0; 
+padding : 0; 
+height : 100%; 
+} 
+#content { 
+margin : 0 auto; 
+width : 900px; 
+} 
+#logo { 
+background-image : url(/images/backlogo.png); 
+background-repeat : repeat-x; 
+height : 67px; 
+width : 900px; 
+background-color : #bd0000; 
+text-align : center; 
+} 
+#menu { 
+border-top : 1px solid #000000; 
+background : url(/images/menu.jpg) repeat-x; 
+color : #ffffff; 
+font-size : 11px; 
+height : 29px; 
+} 
+#menu ul { 
+list-style : none; 
+line-height : normal; 
+margin-top : 4px; 
+} 
+#menu li { 
+float : left; 
+margin-right : 20px; 
+} 
+#menu li a { 
+color : #fff; 
+outline : none; 
+text-decoration : none; 
+} 
+#menu li a:hover { 
+text-decoration : underline; 
+} 
+#subMenu { 
+border-top : 1px solid #000000; 
+background : #990000; 
+color : #ffffff; 
+padding : 5px; 
+margin-bottom : 5px; 
+height : 20px; 
+} 
+#bodyy { 
+position : relative; 
+margin-bottom : 5px; 
+width : 900px; 
+overflow : hidden; 
+background-color : #ffffff; 
+} 
+#leftPart { 
+position : relative; 
+float : left; 
+margin-left : 10px; 
+margin-right : 10px; 
+text-align : justify; 
+width : 612px; 
+} 
+#leftPart p { 
+margin-bottom : 15px; 
+} 
+#leftPart h3 { 
+font-family : helvetica; 
+font-size : 15px; 
+font-weight : bold; 
+color : #000000; 
+margin-bottom : 0; 
+margin-top : 3px; 
+} 
+#leftPart a { 
+color : #000000; 
+} 
+.image { 
+float : left; 
+margin : 2px 5px 2px 2px; 
+} 
+#FullPart { 
+position : relative; 
+float : left; 
+margin-left : 10px; 
+margin-right : 10px; 
+text-align : justify; 
+width : 100%; 
+} 
+#FullPart p { 
+margin-bottom : 15px; 
+} 
+#FullPart h3 { 
+font-family : helvetica; 
+font-size : 15px; 
+font-weight : bold; 
+color : #000000; 
+margin-bottom : 0; 
+margin-top : 3px; 
+} 
+#FullPart a { 
+color : #000000; 
+text-decoration : none; 
+} 
+.image { 
+float : left; 
+margin : 2px 5px 2px 2px; 
+} 
+#rightPart { 
+position : relative; 
+float : right; 
+width : 250px; 
+} 
+ul.hoh { 
+width : 250px; 
+padding : 0; 
+background : #888; 
+color : #eee; 
+font-style : italic; 
+list-style : none; 
+overflow : hidden; 
+margin : 0; 
+} 
+ul.hoh li ul { 
+list-style : none; 
+} 
+li.hoh_ul { 
+clear : left; 
+list-style : none; 
+} 
+li.hoh_li { 
+float : left; 
+font-size : 12px; 
+margin-left : 5px; 
+margin-right : 5px; 
+} 
+#search { 
+margin : 8px auto; 
+margin-bottom : 2px; 
+} 
+ul.deface { 
+background : #efefef; 
+border : 1px solid #ddd; 
+border-width : 1px 0; 
+width : 210px; 
+list-style : none; 
+clear : left; 
+} 
+#rightPart a { 
+text-decoration : none; 
+font-style : normal; 
+font-weight : normal; 
+color : #a00; 
+font-size : 15px; 
+} 
+#rightPart h2 { 
+margin : 0; 
+padding : 0 0 2px 0; 
+font-size : 18px; 
+letter-spacing : -1px; 
+color : #aaa; 
+font-style : italic; 
+text-transform : lowercase; 
+} 
+#footer { 
+position : relative; 
+background : #000000; 
+border-bottom : 1.5px solid #5b5b5b; 
+border-top : 1.5px solid #5b5b5b; 
+color : #ffffff; 
+margin-bottom : 5px; 
+width : 900px; 
+clear : left; 
+overflow : hidden; 
+} 
+.defaceIntro { 
+width : 792px; 
+margin : 0 auto; 
+margin-top : 20px; 
+} 
+#ldeface { 
+margin : 0 auto; 
+width : 792px; 
+} 
+#ldeface a { 
+color : #f30b0b; 
+} 
+#ldeface a:hover { 
+text-decoration : underline; 
+} 
+.defaceTime { 
+width : 100px; 
+font-weight : bold; 
+} 
+.defaceAttacker { 
+width : 150px; 
+font-weight : bold; 
+} 
+.defaceHMR { 
+width : 12px; 
+font-weight : bold; 
+} 
+.defaceDomain { 
+width : 260px; 
+font-weight : bold; 
+} 
+.defaceOs { 
+width : 150px; 
+font-weight : bold; 
+} 
+.defaceView { 
+width : 120px; 
+font-weight : bold; 
+} 
+.defacepages { 
+margin-top : 30px; 
+text-align : center; 
+background-color : #efefef; 
+} 
+#news h1 { 
+margin-left : 20px; 
+margin-bottom : 5px; 
+} 
+#news p { 
+margin-left : 20px; 
+margin-right : 20px; 
+} 
+#news a { 
+color : #f30b0b; 
+} 
+small { 
+margin : 20px; 
+} 
+#propdeface { 
+margin : 20px 20px 20px 20px; 
+background-color : #f1f1f1; 
+overflow : hidden; 
+} 
+#propdeface a { 
+color : #f30b0b; 
+} 
+#propdeface ul { 
+padding-left : 0; 
+margin : 10px 10px 10px 10px; 
+} 
+li.deface0 { 
+clear : left; 
+list-style : none; 
+margin-left : 0; 
+padding-left : 0; 
+} 
+li.defacef { 
+width : 200px; 
+float : left; 
+list-style : none; 
+margin-left : 0; 
+padding-left : 0; 
+} 
+li.defaces { 
+width : 330px; 
+float : left; 
+list-style : none; 
+margin-left : 0; 
+padding-left : 0; 
+} 
+li.defacet { 
+width : 200px; 
+float : left; 
+list-style : none; 
+margin-left : 0; 
+padding-left : 0; 
+} 
+#newslist { 
+background-color : #f1f1f1; 
+text-align : center; 
+} 
+#newslist a { 
+color : #f30b0b; 
+} 
+#lnews { 
+position : relative; 
+padding-bottom : 15px; 
+overflow : hidden; 
+border-bottom : 1px dashed #f30b0b; 
+} 
+#lnews p a { 
+color : #f30b0b; 
+} 
+#filter { 
+width : 792px; 
+margin : 0 auto; 
+margin-top : 20px; 
+background-color : #efefef; 
+} 
+#d_valid { 
+background-color : #f1f1f1; 
+padding-top : 10px; 
+padding-left : 10px; 
+width : 860px; 
+margin : 5px auto; 
+border : 2px solid #ddd; 
+border-bottom : 5px solid #ddd; 
+} 
+#dw_valid { 
+background-color : #ffffff; 
+padding-top : 10px; 
+padding-left : 10px; 
+width : 860px; 
+margin : 30px auto; 
+border : 2px solid #ddd; 
+} 
+.big { 
+font-size : 15px; 
+color : #f30b0b; 
+} 
+#error { 
+width : 700px; 
+background-color : #f1f1f1; 
+margin : 10px auto; 
+} 
+.bloc { 
+padding : 5px 0 5px 0; 
+margin : 0; 
+} 
+.bloc li { 
+margin-left : 10px; 
+list-style : none; 
+} 
+#number { 
+width : 256px; 
+background-image : url(/images/center.png); 
+background-repeat : repeat-y; 
+} 
+#topNumber { 
+margin : 0; 
+width : 256px; 
+height : 12px; 
+background-image : url(/images/top.png); 
+} 
+#bottomNumber { 
+margin : 0; 
+width : 256px; 
+height : 12px; 
+background-image : url(/images/bottom.png); 
+background-repeat : no-repeat; 
+} 
+.highlight { 
+background-color : #efefef; 
+} 
+.normal { 
+background-color : #ffffff; 
+} 
+#Layer1 { 
+position : absolute; 
+left : 600px; 
+top : 135px; 
+width : 380px; 
+height : 10px; 
+z-index : 3; 
+} 
+#Layer2 { 
+position : absolute; 
+left : 575px; 
+top : 150px; 
+width : 380px; 
+height : 10px; 
+z-index : 3; 
+} 
